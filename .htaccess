@@ -1,0 +1,19 @@
+ErrorDocument 400 http://friend0.in/error.html
+ErrorDocument 401 http://friend0.in/error.html
+ErrorDocument 403 http://friend0.in/error.html
+ErrorDocument 404 http://friend0.in/error.html
+ErrorDocument 405 http://friend0.in/error.html
+ErrorDocument 406 http://friend0.in/error.html
+ErrorDocument 409 http://friend0.in/error.html
+ErrorDocument 413 http://friend0.in/error.html
+ErrorDocument 414 http://friend0.in/error.html
+ErrorDocument 500 http://friend0.in/error.html
+ErrorDocument 501 http://friend0.in/error.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /
+
+RewriteRule ^user/(\d+)/?$ view_profile.php?id=$1 [L]
+RewriteRule ^item/(\d+)/?$ auctionDetail.php?id=$1 [L]
+</IfModule>

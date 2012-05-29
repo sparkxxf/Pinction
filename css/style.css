@@ -1,0 +1,9 @@
+.item {
+    width: 256px;
+    margin: 10px;
+    float: left;
+    display:inline;
+    /*padding-left:10px;*/
+    /*padding-right:10px;*/
+    text-align: center;
+}
