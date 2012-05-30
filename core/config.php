@@ -1,4 +1,4 @@
-<?php define("error_reporting_level", "1"); define("server","localhost"); define("user","root"); define("password","usbw"); define("dbase","auction"); 
+<?php define("error_reporting_level", "1"); define("server",""); define("user",""); define("password",""); define("dbase"," "); 
 function foo()
 {
  echo 'bar';
